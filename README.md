@@ -1,12 +1,12 @@
 # Clustering Analysis of VSPP Power Plants (PEA Internship Project)
 
-## 📌 Overview
+##  Overview
 This project analyzes **Very Small Power Producer (VSPP)** power plants that Provincial Electricity Authority (PEA) purchases electricity from.  
 The goal is to use **unsupervised learning (K-Means clustering)** to group power plants by **efficiency, stability, and reliability**, and support **data-driven contract renewal decisions**.
 
 ---
 
-## 📊 Data Description
+##  Data Description
 - **Fuel Types:** Solar, Biomass, Biogas (Biological), Trash-to-Energy  
 - **Historical Data:** 36 months of monthly electricity generation (kWh)  
 - **Capacity:** Contracted installed capacity (MW)  
@@ -17,7 +17,7 @@ The goal is to use **unsupervised learning (K-Means clustering)** to group power
 
 ---
 
-## 🛠 Methodology
+##  Methodology
 1. **Data Preparation**
    - Cleaned and standardized monthly generation data
    - Handled missing values and anomalies  
@@ -42,16 +42,16 @@ The goal is to use **unsupervised learning (K-Means clustering)** to group power
 
 ---
 
-## 📈 Results
+##  Results
 - **Optimal clusters = 3** for all fuel types  
 - **Cluster Profiles** (common pattern across all fuels):
-  - **Cluster A:** High efficiency, stable → ✅ Recommend contract renewal  
-  - **Cluster B:** Medium efficiency, some fluctuation → 🔧 Conditional renewal / improvement required  
-  - **Cluster C:** Low efficiency, unstable / frequent missing → ❌ Not recommended for renewal  
+  - **Cluster A:** High efficiency, stable →  Recommend contract renewal  
+  - **Cluster B:** Medium efficiency, some fluctuation →  Conditional renewal / improvement required  
+  - **Cluster C:** Low efficiency, unstable / frequent missing →  Not recommended for renewal  
 
 ---
 
-## 🎯 Impact
+##  Impact
 - Provided PEA with a **transparent, data-driven framework** for VSPP contract renewal decisions  
 - Reduced risks of renewing low-quality plants  
 - Identified improvement opportunities for medium-performing plants  
@@ -59,7 +59,7 @@ The goal is to use **unsupervised learning (K-Means clustering)** to group power
 
 ---
 
-## 🛠 Tools & Libraries
+##  Tools & Libraries
 - **Python**: pandas, numpy, scikit-learn  
 - **Clustering**: KMeans  
 - **Visualization**: matplotlib, PCA  
